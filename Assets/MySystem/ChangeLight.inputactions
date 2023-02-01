@@ -1,0 +1,34 @@
+{
+    "name": "ChangeLight",
+    "maps": [
+        {
+            "name": "ChangeLight",
+            "id": "f07495ab-20be-4aa3-88f7-0f8da39607cf",
+            "actions": [
+                {
+                    "name": "Light",
+                    "type": "Button",
+                    "id": "5e313257-a3a7-457a-801c-e4428cfc42aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a35e8919-2686-48ea-a88d-19eeeed9ef54",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Light",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
